@@ -1,0 +1,145 @@
+body{
+    font-family: 'Fira Sans', sans-serif;
+}
+.titulo{
+    font-size: 20pt;
+}
+body{
+    background: #481586;
+}
+.banner{
+    width:80%;
+    margin: 0 auto;
+}
+.banner img{
+    width: 100%;
+}
+.informacion{
+    background-color: #6f34b8;
+    padding: 20px;
+    margin: 20px 0;
+}
+p{
+    text-align:center;
+    color: #dbb5ff;
+}
+#mision{
+    font-size: 20px;
+}
+.diferenciales{
+    background-color: #6f34b8;
+    padding: 20px;
+    margin: 20px 0;
+
+}
+.items{
+    color: #dbb5ff;
+    line-height: 2;
+    
+}
+.items:first-child{
+    font-weight: bold;
+}
+ul{
+    display: inline-block;
+    vertical-align:top;
+}
+em strong{
+    color: #ffffff;
+}
+.imagenDif{
+    width: 60%;
+    opacity: 0.8;
+    transition: 400ms;
+    
+}
+
+.imagenDif:hover{
+    opacity: 1;
+    box-shadow: 3px 3px 10px 2px black;
+}
+
+/*Para la pagina*/
+.informacion{
+    margin: 3em 0;
+}
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    color: #dbb5ff;
+    margin: 1em 0;
+    text-align: left;
+    clear: left;
+}
+.informacion p{
+    margin: 1em 0 ;
+    text-align: center;
+    text-align: left;
+}
+.utensilios{
+    width: 120px;
+    display: inline;
+    float: left;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin: 40px 40px 40px 0;
+}
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin: 1em 0;
+    text-align: left;
+}
+.video{
+    width: 560px;
+    margin: 1em auto;
+    
+}
+.contenido-diferenciales{
+    width: 100%;
+    margin: 0 auto;
+    display: inline-block;
+}
+.lista-diferenciales{
+    width: 40%;
+}
+
+
+
+    main >p{    /* los p dentro del main*/
+        background: red;
+    }
+    img+p{   /*el primer los p despues de cualquier img*/
+        background: red;
+    }
+    img~p{  /*todos los p despues de cualquier img*/
+        background: blue;
+    }
+    .informacion p:not(#mision){
+        background: orange;
+    }
+/*para la seccion diferenciales*/
+
+/*media queries-----para realizar paginas responsivas*/
+@media screen and (max-width:480px){
+    h1{
+        text-align: center;
+    }
+    nav{
+        position: static;
+    }
+    .banner{
+        width: 100%;
+    }
+    .titulo, .titulo-principal, .mapa, .contenido-diferenciales, .video{
+        width: auto;
+    }
+    .lista-diferenciales{
+        width: 100%;
+    }
+    .imagenDif{
+        width: 100%;
+    }
+}
+

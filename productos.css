@@ -1,0 +1,86 @@
+header{
+    background-color: #e3caff;
+    padding: 20px 0;
+}
+.caja{
+    padding: 0 0 0 10vw;
+}
+nav{
+    position: absolute;
+    top: calc(12vh + 20px);
+    right: 25vw;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #a559fd;
+}
+.productos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+.productos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: black 2px solid;
+    border-radius: 10px;
+}
+.productos li:hover{
+    border: solid 3px #e3caff;
+    border-radius: 20px;
+    font-size: 33px;
+}
+.productos li:active{
+    border-color: crimson;
+}
+.productos h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.productos li:hover h2{
+    font-size: 31px;
+}
+.p-descripcion{
+    font-size: 18px;
+}
+.productos li:hover .p-descripcion{
+    font-size: 19px;
+}
+.p-precio{
+    font-size: 30px ;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+.productos li:hover .p-precio{
+    font-size: 31px;
+}
+
+footer{
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    padding: 40px;
+}
+.copy{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    color: white;
+    margin: 20px;
+}
